@@ -16,7 +16,7 @@ These restrictions, however, can be bypassed by replacing the menu background wi
 
 ![Screenshot](example.png)
 
-The highlighted (or lowlighted to be precise) area is one out of the  “strips” in the example.
+For example separeted by green lines area is one out of the “strips”.
 
 For example: 
 Some video is 1920 pixels wide, and we have 888 frames in this video, so we have 1920*888=1704960 pixels. Each texture can only contain 16384 pixels in width, so we need at least 1704960/16384=104.0625 textures. We up that to 120, so we’ll divide the loading screen into 120 pieces of texture. Now we have to calculate the width of each frame, which is 1920/120=16 pixels. Note that if the width isn’t divisible by the number of textures in the last step, you might want to either divide the texture further to find a number divisible by the width
