@@ -14,7 +14,7 @@ This means that for a single frameAnimatedSpriteType, [width]*[num of frames] mu
 
 These restrictions, however, can be bypassed by replacing the menu background with multiple images:
 
-![alt text](https://ibb.co/tLTqPgT)
+![Screenshot](example.png)
 
 The highlighted (or lowlighted to be precise) area is one out of the  “strips” in the example.
 
