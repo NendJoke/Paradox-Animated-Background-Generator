@@ -72,7 +72,7 @@ class SettingsSelectFrame(Frame):
     def _helpPopup(self):
         self._scene.add_effect(
             PopUpDialog(self._screen,
-                        "Start and Points - to crop specified part of video (if you want full video just set it to video resolution) \n"
+                        "Start and EndPoints - to crop specified part of video (if you want full video just set it to video resolution) \n"
                         "Horizontal crop must be divisible by difference (Between EndPoint and StartPoint) without a reminder \n"
                         "Vertical crop must be divisible by difference (Between EndPoint and StartPoint) without a reminder (if you dont want to split video on vertical set the value to the same as EndPoint Vertical) \n"
                         "Threads count - faster program execution",
