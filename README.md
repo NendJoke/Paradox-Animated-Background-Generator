@@ -16,7 +16,7 @@ These restrictions, however, can be bypassed by replacing the menu background wi
 
 ![Screenshot](example.png)
 
-For example separeted by green lines area is one out of the “strips”.
+For example separated by green lines area's are “strips”.
 
 For example: 
 Some video is 1920 pixels wide, and we have 888 frames in this video, so we have 1920*888=1704960 pixels. Each texture can only contain 16384 pixels in width, so we need at least 1704960/16384=104.0625 textures. We up that to 120, so we’ll divide the loading screen into 120 pieces of texture. Now we have to calculate the width of each frame, which is 1920/120=16 pixels. Note that if the width isn’t divisible by the number of textures in the last step, you might want to either divide the texture further to find a number divisible by the width
@@ -25,6 +25,7 @@ Then you set settings in settings corresponding to the math. and then you must s
 
 After that program will generate files with code which you will need to paste in the corresponding files of your mod. Also you will need to copy the generated gfx folder in your mod folder. (this all will be located in folder named Final Result)
 
-You can see this mod as example: https://steamcommunity.com/sharedfiles/filedetails/?id=2725561378
+You can see this mod as example for eu4: https://steamcommunity.com/sharedfiles/filedetails/?id=2725561378
+And this mod as example for hoi4: https://steamcommunity.com/sharedfiles/filedetails/?id=2390595842
 
 
