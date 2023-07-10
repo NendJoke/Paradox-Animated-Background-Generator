@@ -2,7 +2,7 @@
 This program can help you create an animated background for your game mod (PDX games).
 
 
-!!! N.B. If program dies after a couple of seconds after launch, try installing this program this https://imagemagick.org/script/download.php#windows (with legacy option selected) 
+!!! N.B. If program dies after a couple of seconds after launch, try installing this program - https://imagemagick.org/script/download.php#windows (with legacy option selected) 
 
 
 First of all, the source video needs its frame rate lowered to 24 fps.
